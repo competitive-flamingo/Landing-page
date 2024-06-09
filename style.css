@@ -55,6 +55,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 100px;
+  margin-bottom: 50px;
 /*   padding: 0 70px; */
 }
 
@@ -124,7 +125,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   color: white;
-  background-color: #3b82f6;
+  background-color: #3882f6;
 }
 
 .one .hero .img {
@@ -145,6 +146,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .two .container h2 {
@@ -221,5 +223,70 @@ ul {
   font-size: 22px;
   font-weight: bold;
   align-self: flex-end;
+}
+
+.four {
+  justify-content: center;
+}
+
+.four .container {
+  max-width: 1000px;
+  flex: 1;
+  background-color: #3882f6;
+  display: flex;
+  padding: 50px 150px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 50px;
+}
+
+.four .container > * {
+  /* flex: 1; */
+}
+
+.four .container button {
+  padding: 10px 35px;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  background-color: #3882f6;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.four .container .text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.four .text > * {
+  flex: 1;
+}
+
+.four .text .maintext {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.four .text .subtext {
+  font-size: 18px;
+  color: #d2dcec;
+}
+
+footer {
+  background-color: #1f2937;
+  justify-content: center;
+}
+
+footer p {
+  margin: 15px;
+  flex: 1;
+  color: white;
 }
 
